@@ -112,11 +112,13 @@ body{
     padding-left: 775px;
 }
 #rd1{
-    width: 300px;
+    width: 290px;
     border: #2F3336 1.5px solid;
-    height: 1px;
+    height: auto;
     border-radius: 15px;
     margin-left: 20px;
+    padding-left: 15px;
+    padding-top: 12px;
 }
 #rd2{
     width: 290px;
@@ -191,4 +193,56 @@ body{
 #rd5{
     margin-top: 10px;
     margin-left: 30px;
+}
+#prem1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    padding-top: 5px;
+    margin: 0;
+}
+#prem2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(215, 215, 215);
+    padding-top: 14px;
+    margin: 0;
+}
+#sub{
+    background-color: #1D9BF0;
+    border: 0px black;
+    border-radius: 30px;
+    color: white;
+    height: 32px;
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+#help{
+    position: fixed;
+    right: 18px;
+    bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    z-index: 1000;
+}
+.grok{
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f0f0f;
+    border: 1px solid #3d3d3d;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 7px rgba(255,255,255,0.5);
+}
+.grok img{
+    width: 37px;
+    height: 37px;
 }
