@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+
+    <!-- Head -->
+    <circle cx="8" cy="6.8" r="2.4" stroke="#ffffff" stroke-width="1.9"></circle>
+
+    <!-- Body (taller like X) -->
+    <path d="M3.8 18
+           C3.8 14.8 5.7 12.8 8 12.8
+           C10.3 12.8 12.2 14.8 12.2 18" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"></path>
+
+    <!-- Bottom line -->
+    <path d="M3.8 18H12.2" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round"></path>
+
+    <!-- Plus -->
+    <path d="M17.7 4.8V9.8" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round"></path>
+
+    <path d="M15.2 7.3H20.2" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round"></path>
+
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+
+    <!-- Head -->
+    <circle cx="12" cy="7" r="2.9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle>
+
+    <!-- Body -->
+    <path d="M5 19
+           C5 15.7 7.7 13.5 12 13.5
+           C16.3 13.5 19 15.7 19 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+
+    <!-- Bottom Line -->
+    <path d="M5 19H19" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+
+</svg>

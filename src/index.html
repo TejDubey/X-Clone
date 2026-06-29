@@ -8,18 +8,18 @@
     <body>
         <div id="main">
             <div id="leftdiv">
-                <img src="./images/image.png" height="25px" width="25px"><br>  
-                <div class="items"><img src="./images/image 13.png" height="25px" width="25px"><p class="para">Home</p></div>
-                <div class="items"><img src="./images/image 10.png" height="25px" width="25px"><p class="para">Explore</p></div>
-                <div class="items"><img src="./images/image 9.png" height="25px" width="25px"><p class="para">Notifications</p></div>
-                <div class="items"><img src="./images/image 8.png" height="25px" width="25px"><p class="para">Follow</p></div>
-                <div class="items"><img src="./images/image 7.png" height="25px" width="25px"><p class="para">Chat</p></div>
-                <div class="items"><img src="./images/image 6.png" height="25px" width="25px"><p class="para">Grok</p></div>
-                <div class="items"><img src="./images/image 12.png" height="25px" width="25px"><p class="para">Bookmark</p></div>
-                <div class="items"><img src="./images/image 5.png" height="25px" width="25px"><p class="para">Creator Studio</p></div>
-                <div class="items"><img src="./images/image 4.png" height="25px" width="25px"><p class="para">Premium</p></div>
-                <div class="items"><img src="./images/image 3.png" height="25px" width="25px"><p class="para">Profile</p></div>
-                <div class="items"><img src="./images/image 2.png" height="25px" width="25px"><p class="para">More</p></div>
+                <div id="xlogo"><img src="./images/1.svg" height="21px" width="21px"></div>
+                <div class="items"><img src="./images/2.svg" height="25px" width="25px"><p class="para">Home</p></div>
+                <div class="items"><img src="./images/3.svg" height="25px" width="25px"><p class="para">Explore</p></div>
+                <div class="items1"><img src="./images/4.svg" height="30px" width="30px"><p class="para">Notifications</p></div>
+                <div class="items"><img src="./images/5.svg" height="30px" width="30px"><p class="para">Follow</p></div>
+                <div class="items"><img src="./images/6.svg" height="25px" width="25px"><p class="para">Chat</p></div>
+                <div class="items"><img src="./images/Grok_Symbol_0.svg" height="25px" width="25px"><p class="para">Grok</p></div>
+                <div class="items"><img src="./images/7.svg" height="25px" width="25px"><p class="para">Bookmark</p></div>
+                <div class="items"><img src="./images/image 5.png" height="26px" width="26px"><p class="para">Creator Studio</p></div>
+                <div class="items"><img src="./images/8.svg" height="25px" width="25px"><p class="para">Premium</p></div>
+                <div class="items"><img src="./images/9.svg" height="25px" width="25px"><p class="para">Profile</p></div>
+                <div class="items"><img src="./images/10.svg" height="25px" width="25px"><p class="para">More</p></div>
                 <input type="button" id="but1" value="Post"><br><br>
                 <img src="./images/image 14.png" id="profile">
             </div>
@@ -41,7 +41,6 @@
                         <span class="Nav">Entertainment</span>
                     </div>
                 </div>
-                <!-- here i have made multiple posts divs -->
                 <div class="post" style="padding-top: 96px;">
                     <img src="./images/image 17.png" style="width: 100%;padding-top: 4px;">
                     <p style="padding-left: 8px;">See the outer space out with figma!</p>
@@ -257,16 +256,21 @@
                     <div id="fol1"><img src="./images/27.png" style="width: 180px;"><input type="button" id="but2" value="Follow"  style="margin-left: 20px"><br><br></div>
                     <div id="fol1"><img src="./images/28.png" style="width: 180px;"><input type="button" id="but2" value="Follow" style="margin-left: 20px"><br><br></div>
                     <div id="fol1"><img src="./images/29.png" style="width: 180px;"><input type="button" id="but2" value="Follow" style="margin-left: 20px"><br><br></div>
-                    <p style="color: #207bb7; font-family: Arial, Helvetica, sans-serif; font-size: 13px;">Show more</p>
+                    <p style="color: #207bb7; font-family: Arial, Helvetica, sans-serif; font-size: 13px; cursor: pointer;">Show more</p>
                 </div>
                 <div id="rd5">
-                    <span id="extras">Terms ·</span>
-                    <span id="extras">Privacy  ·</span>
-                    <span id="extras">Cookies ·</span>
-                    <span id="extras">Accessibilty  ·</span><br>
-                    <span id="extras">Ad info ·</span>
-                    <span id="extras">More ···</span>
-                    <span id="extras">@2026 X Tej Dubey</span>
+                    <span class="extras" id="hl1">Terms </span><span class="dots">·</span>
+                    <span class="extras" id="hl2">Privacy  </span><span class="dots">·</span>
+                    <span class="extras" id="hl3">Cookies </span><span class="dots">·</span>
+                    <span class="extras" id="hl4">Accessibilty  </span><span class="dots">·</span><br>
+                    <span class="extras" id="hl5">Ads info </span><span class="dots">·</span>
+                    <span class="extras" id="hl6" onclick="showMore(event)">More</span><span class="dots">···</span>
+                    <span class="extras" id="hl7">@2026 X Tej Dubey</span>
+                    <div id="more">
+                        <div class="moreitems" onclick="About()">About</div>
+                        <div class="moreitems" onclick="GetApp()">Get App</div>
+                        <div class="moreitems" onclick="Developers()">Developers</div>
+                    </div>
                 </div>
             </div>
             <div id="help">

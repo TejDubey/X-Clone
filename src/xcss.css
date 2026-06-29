@@ -10,10 +10,9 @@ body{
 #leftdiv{
     display: flex;
     flex-direction: column;
-    padding-top: 12px;
+    padding-top: 4px;
     width: 250px;
     left: 300px;  
-    top: 12px;
     position: fixed;
 }
 .para{
@@ -25,10 +24,12 @@ body{
 .items{
     display: flex;
     align-items: center;
+    padding-left: 10px;
 }
 #but1{
     background-color: white;
     border-radius: 30px;
+    border:black 2px solid;
     color: black;
     height: 48px;
     width: 215px;
@@ -109,7 +110,7 @@ body{
     height: auto;
     padding-top: 4px;
     position: fixed;
-    padding-left: 775px;
+    margin-left: 775px;
 }
 #rd1{
     width: 290px;
@@ -153,7 +154,6 @@ body{
     color: white;
     padding-top: 28px;
     margin: 0;
-
 }
 #cross{
     display: inline-block;
@@ -163,6 +163,7 @@ body{
     background-color: white;
     border-radius: 30px;
     color: black;
+    border: 2px solid black;
     height: 33px;
     width: 80px;
     font-family: Arial, Helvetica, sans-serif;
@@ -184,7 +185,7 @@ body{
     padding-left: 10px;
     padding-top: 12px;
 }
-#extras{
+.extras{
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
     font-size: 10px;
@@ -273,4 +274,89 @@ body{
     display: flex;
     align-items: center;
     padding-left: 10px;
+}
+#xlogo{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#xlogo:hover{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+.items:hover{
+    background-color: rgba(255,255,255,0.1);
+    width: 170px;
+    height: auto;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+.items1{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+.items1:hover{
+    background-color: rgba(255,255,255,0.1);
+    width: 170px;
+    height: auto;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+#but1:hover{
+    background-color:#E2E2E2;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#sub:hover{
+    background-color: #1A8CD8;
+    cursor: pointer;
+}
+#rd2:hover{
+    cursor: pointer;
+}
+#but2:hover{
+    background-color:#D7D7D7;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.extras:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dots{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-size: 14px;
+    padding-left: 5px;
+}
+#more{
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+    width: 240px;
+    background: #000;
+    border: 1px solid #2F3336;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(255,255,255,.08);
+    display: none;
+    overflow: hidden;
+}
+.moreitems{
+    padding: 16px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color .15s ease;
+}
+.moreitems:hover{
+    background: #16181C;
+    cursor: pointer;
 }
