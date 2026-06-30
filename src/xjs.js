@@ -13,9 +13,6 @@ document.getElementById("hl4").addEventListener("click",()=>{
 document.getElementById("hl5").addEventListener("click",()=>{
     window.location.href="./adsinfo.html";
 })
-document.getElementById("hl5").addEventListener("click",()=>{
-    window.location.href="./adsinfo.html";
-})
 document.getElementById("hl7").addEventListener("click",()=>{
     let x=confirm("You are moving to my github homepage. Do you wish to continue?");
     if(x) window.location.href="https://github.com/TejDubey";
@@ -45,3 +42,6 @@ function GetApp(){
 function Developers(){
     window.location.href="./developers.html";
 }
+document.getElementById("sub").addEventListener("click",()=>{
+    window.location.href="./premium.html";
+})
